@@ -1,1 +1,7 @@
-*.pikle
+*.pickle
+*.ipynb*
+build
+dist
+notes.md
+excel
+.cache*
