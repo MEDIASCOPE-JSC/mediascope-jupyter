@@ -1,6 +1,6 @@
 *.pickle
 *.ipynb*
-build
+build*
 dist
 notes.md
 excel
