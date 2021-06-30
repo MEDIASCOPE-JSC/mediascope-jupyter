@@ -1,5 +1,6 @@
 *.pickle
-.ipynb*
+
+*.ipynb_*
 build*
 dist
 notes.md
