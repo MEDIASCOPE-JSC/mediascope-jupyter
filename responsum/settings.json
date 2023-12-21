@@ -1,8 +1,8 @@
 {
-	"username": "youlogin",
-	"passw": "youpassword",
-    "auth_server": "https://auth.mediascope.net/auth/realms/mediascope/protocol/openid-connect/token",	
-    "client_id": "responsum",
-    "client_secret": "1a92ab3c-b814-4ef9-b512-fd5b314f5e29",
-    "root_url": "https://api.mediascope.net/responsum/api/v1"
+ "username": "user.name",
+ "passw": "passw",
+ "auth_server": "https://auth.mediascope.net/auth/realms/mediascope/protocol/openid-connect/token",
+ "client_id": "responsum",
+ "client_secret": "1a92ab3c-b814-4ef9-b512-fd5b314f5e29",
+ "root_url": "https://api.mediascope.net/responsum/api/v1"
 }
