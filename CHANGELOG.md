@@ -1,8 +1,12 @@
 # Changelog
 
 Список изменений в проекте Mediascope jupyter
-
 =======
+## [1.1.13] - 2024-01-15
+
+1. Добавлен ноутбук «audience_media&profile» с примером работы с отчетом media-profile в Crossweb API
+2. Добавлен ноутбук «profile_duplication» с примером работы с отчетом profile-duplication в Crossweb API
+3. Обновлены ноутбуки «catalogs» и «help» в Crossweb API
 
 ## [1.1.12] - 2023-12-20
 
