@@ -1,8 +1,8 @@
 {
-    "username": "user.name",
-    "passw": "passw",
-    "client_id": "dds-external",
-    "client_secret": "dbb55638-924c-4182-932f-7f6b441eb9d2",
-    "auth_server": "https://auth.mediascope.net/auth/realms/mediascope/protocol/openid-connect/token",
-    "root_url": "https://api.mediascope.net/metrix/api/v1"
+ "username": "user.name",
+ "passw": "passw",
+ "client_id": "dds-external",
+ "client_secret": "dbb55638-924c-4182-932f-7f6b441eb9d2",
+ "auth_server": "https://auth.mediascope.net/auth/realms/mediascope/protocol/openid-connect/token",
+ "root_url": "https://api.mediascope.net/metrix/api/v1"
 }
