@@ -2,6 +2,11 @@
 
 Список изменений в проекте Mediascope jupyter
 
+## [1.1.19] - 2025-02-03
+1. В ноутбук catalogs добавлен пример использования дополнительных полей профиля РК (СrossWeb API)
+2. Обновлены ноутбуки advertisement, profile_duplication, audience_media&profile и counter-adcampaigns (CrossWeb API, Counter API)
+3. Удалены дублирующиеся ноутбуки TV-Index
+
 ## [1.1.18] - 2025-01-22
 1. Добавлен ноутбук с примером расчета индекса аффинитивности для интернет-ресурсов (Сrossweb API)
 2. Обновлен ноутбук __index
