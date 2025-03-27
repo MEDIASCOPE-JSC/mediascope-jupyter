@@ -2,10 +2,32 @@
 
 Список изменений в проекте Mediascope jupyter
 
+## [1.1.20] - 2025-03-27
+Обновление ноутбуков проекта TV Index:
+
+1. Добавлен ноутбук с примером расчета охватов по домохозяйствам (timeband_overall_figures_06_reach_by_households)
+2. В ноутбук _help:
+   - добавлено описание новых статистик:
+       - Отчет События (Simple):
+           - Fidelity
+           - SpotByBreaksTgSatReachPer
+           - SpotByBreaksStandRtgPer
+           - SpotByBreaksStandSalesRtgPer
+       - Отчет Кросс-таблица (Crosstab):
+           - SpotByBreaksOTSPerAvg
+           - SpotByBreaksStandRtgPerSum
+           - SpotByBreaksStandSalesRtgPerSum
+           - SpotByBreaksStandSalesRtgPerAvg
+           - SpotByBreaksSalesRtg000Sum
+           - OTS000Avg
+           - OTSPerAvg
+   - Добавлено описание настройки типа автоматического базового дня (baseDateCalcType)
+   - Добавлено описание переключения расчета по домохозяйствам/респондентам (viewingSubject)
+3. Обновлен ноутбук __index
+
 ## [1.1.19] - 2025-02-03
 1. В ноутбук catalogs добавлен пример использования дополнительных полей профиля РК (СrossWeb API)
 2. Обновлены ноутбуки advertisement, profile_duplication, audience_media&profile и counter-adcampaigns (CrossWeb API, Counter API)
-3. Удалены дублирующиеся ноутбуки TV-Index
 
 ## [1.1.18] - 2025-01-22
 1. Добавлен ноутбук с примером расчета индекса аффинитивности для интернет-ресурсов (Сrossweb API)
