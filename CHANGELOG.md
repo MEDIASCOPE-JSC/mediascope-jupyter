@@ -2,6 +2,21 @@
 
 Список изменений в проекте Mediascope jupyter
 
+## [1.3.0] - 2025-05-15
+Обновление ноутбков проекта TV Index:
+
+1. Добавлены ноутбуки, рассчитывающие просмотр (% в просмотре) и показ (% в вещании) жанров:
+    1. На ТВ - crosstab_programs_06_supply_and_demand_TTV
+    2. На канале - crosstab_programs_07_supply_and_demand_channel
+2. Удален ноутбук crosstab_programs_03_time_by_weeks
+3. В ноутбук _help добавлены описания новых статистик:
+    1. SpotByBreaksSalesRtg000 (Simple)
+    2. SpotByBreaksSalesRtgPer (Simple)
+    3. SpotByBreaksStandRtgPerAvg (Crosstab)
+    4. StandSalesRtgPerAvg (Crosstab)
+    5. StandSalesRtgPerSum (Crosstab)
+4. Обновлен ноутбук __index
+
 ## [1.2.0] - 2025-04-21
 Обновление ноутбуков проекта Crossweb:
 
