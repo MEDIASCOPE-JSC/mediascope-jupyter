@@ -2,6 +2,11 @@
 
 Список изменений в проекте Mediascope jupyter
 
+## [1.6.2] - 2025-09-26
+Обновление ноутбуков проекта Crossweb:
+
+1. Исправлен фильтр в ноутбуках hour_audience, hour_audience_groups и hour_audience_total
+
 ## [1.6.1] - 2025-09-24
 Обновление ноутбуков проекта Crossweb:
 
