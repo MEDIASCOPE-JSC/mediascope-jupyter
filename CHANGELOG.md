@@ -2,6 +2,30 @@
 
 Список изменений в проекте Mediascope jupyter
 
+## [1.7.0] - 2025-10-02
+Обновление ноутбуков проекта TV Index: Frequency Distribution и Accumulative Reach
+
+1. Добавлены статистики:
+   - Отчет Simple:
+      - AccumulativeReach000
+      - AccumulativeReachPer
+      - SpotByBreaksAccumulativeReach000
+      - SpotByBreaksAccumulativeReachPer
+      - FrequencyDist000
+      - FrequencyDistPer
+      - SpotByBreaksFrequencyDist000
+      - SpotByBreaksFrequencyDistPer
+   - Отчет Crosstab:
+      - FrequencyDist000
+      - FrequencyDistPer
+      - SpotByBreaksFrequencyDist000
+      - SpotByBreaksFrequencyDistPer
+2. Добавлены ноутбуки:
+   - crosstab_spots_03_frequency_distribution_n+ (Частотное распределение охвата для открытых и закрытых интервалов)
+   - simple_breaks_02_accumulative_reach (Накопление охвата по рекламным блокам в течение периода)
+3. В ноутбук _help добавлены описания новых статистик и работы с настройкой количества контактов для Frequency Distribution
+4. Обновлен ноутбук __index
+
 ## [1.6.2] - 2025-09-26
 Обновление ноутбуков проекта Crossweb:
 
