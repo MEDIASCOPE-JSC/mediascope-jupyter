@@ -2,6 +2,31 @@
 
 Список изменений в проекте Mediascope jupyter
 
+## [1.8.0] - 2025-10-23
+Обновление ноутбуков проекта TV Index: новые статистики Big TV, каталог баинговых аудиторий, количество задач в расчете
+
+1. Добавлены статистики Big TV:
+   - Отчет Simple:
+     - ATV
+     - ATVReach
+     - SalesRtg000
+     - SalesRtgPer
+     - StandRtgPer
+     - StandSalesRtgPer
+   - Отчет Crosstab:
+     - AvReach000
+     - AvReachPer
+     - SalesRtg000Avg
+     - SalesRtg000Sum
+     - SalesRtgPerAvg
+     - SalesRtgPerSum
+     - StandRtgPerAvg
+     - StandRtgPerSum
+     - StandSalesRtgPerAvg
+     - StandSalesRtgPerSum
+2. В ноутбук catalogs добавлен пример работы с каталогом баинговых аудиторий телекомпаний (get_tv_sales_group)
+3. В ноутбук _help добавлено описание метода, возвращающего количество заданий в расчете (get_active_tasks_count)
+
 ## [1.7.0] - 2025-10-02
 Обновление ноутбуков проекта TV Index: Frequency Distribution и Accumulative Reach
 
