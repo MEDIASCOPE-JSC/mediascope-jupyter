@@ -2,6 +2,40 @@
 
 Список изменений в проекте Mediascope jupyter
 
+## [1.9.0] - 2025-12-16
+Обновление ноутбуков проекта TV Index
+
+1. Обновлен ноутбук crosstab_spots_03_frequency_distribution_n+: теперь в одной задаче можно рассчитывать пересекающиеся интервалы контактов.
+2. Для всех наборов данных, кроме Big TV, добавлены статистики:
+   - Отчет Simple:
+     - Frequency
+     - SpotByBreaksFrequency
+   - Отчет Crosstab:
+     - Frequency
+     - SpotByBreaksFrequency
+     - OTS000Sum
+     - OTSPerSum
+     - SpotByBreaksOTS000Sum
+     - SpotByBreaksOTSPerSum
+3. Для набора Big TV добавлены статистики:
+   - Отчет Simple:
+     - AccumulativeReach000
+     - AccumulativeReachPer
+     - FrequencyDist000
+     - FrequencyDistPer
+     - CostByMinRUB
+     - CostByGRPRUB
+   - Отчет Crosstab:
+     - FrequencyDist000
+     - FrequencyDistPer
+     - CostByMinSumRUB
+     - CostByGRPSumRUB
+4. Добавлены атрибуты оригиналов событий
+
+Обновление ноутбуков проекта Crossweb:
+
+1. Исправлены опечатки в ноутбуке consumption-audience+demo
+
 ## [1.8.0] - 2025-10-23
 Обновление ноутбуков проекта TV Index: новые статистики Big TV, каталог баинговых аудиторий, количество задач в расчете
 
