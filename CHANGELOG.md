@@ -2,6 +2,14 @@
 
 Список изменений в проекте Mediascope jupyter
 
+## [1.10.0] - 2026-03-27
+Обновление ноутбуков проекта TV Index: примеры работы с отчетом Пересечение Аудитории (Duplication Timeband)
+
+1. Добавлены ноутбуки, демонстрирующие работу с новым отчетом Пересечение Аудитории (Duplication Timeband):
+   - Пересечение аудитории каналов (russia_duplication_timeband_01_duplication_reach)
+   - Пересечение аудитории каналов в Москве (moscow_duplication_timeband_01_duplication_reach_msc)
+2. Обновлены ноутбуки __index, _help, catalogs
+
 ## [1.9.0] - 2025-12-16
 Обновление ноутбуков проекта TV Index
 
