@@ -2,6 +2,11 @@
 
 Список изменений в проекте Mediascope jupyter
 
+## [1.12.0] - 2026-04-23
+Обновление файлов настроек проектов TV Index, Crossweb, Counter и Responsum:
+
+1. В файле настроек settings.json были изменены параметры "client_id" и "client_secret"
+
 ## [1.11.0] - 2026-04-21
 Обновление ноутбуков проекта Counter:
 
