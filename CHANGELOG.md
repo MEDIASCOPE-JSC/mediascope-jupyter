@@ -2,6 +2,11 @@
 
 Список изменений в проекте Mediascope jupyter
 
+## [1.14.0] - 2026-05-19
+Обновление ноутбука проекта Crossweb:
+
+1. Добавлены статистики QualifiedReach и QualifiedAdr в ноутбук audience_scales
+
 ## [1.13.0] - 2026-05-06
 Обновление ноутбука проекта Counter:
 
