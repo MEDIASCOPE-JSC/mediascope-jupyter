@@ -1,0 +1,8 @@
+{
+ "username": "user.name",
+ "passw": "passw",
+ "client_id": "dds-jn",
+ "client_secret": "537b5cee-c4a0-4ad8-b51c-dea8a60b77b6",
+ "auth_server": "https://auth.mediascope.net/auth/realms/mediascope/protocol/openid-connect/token",
+ "root_url": "https://api.mediascope.net/brandpulse/api/v1"
+}
