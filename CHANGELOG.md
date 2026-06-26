@@ -2,6 +2,11 @@
 
 Список изменений в проекте Mediascope jupyter
 
+## [1.18.0] - 2026-06-26
+Переименование переменной в Crossweb API
+
+1. Изменено название переменной product_bundle_id на product_app_code в Crossweb API
+
 ## [1.17.0] - 2026-06-23
 Обновление ноутбуков проекта TV Index
 
