@@ -1028,8 +1028,8 @@ class BrandpulseCalc:
             c.category_name, c.category_name_eng, c.description, c.description_eng, 
             c.sys_name as category_sys_name
             FROM brand_category bc
-            JOIN brand b ON bc.brand_id = b.brand_id
-            JOIN category c ON bc.category_id = c.category_id
+            FULL JOIN brand b ON bc.brand_id = b.brand_id
+            FULL JOIN category c ON bc.category_id = c.category_id
         """
         df = self._execute_query(query=query)
         mask = pd.Series([True] * len(df), index=df.index)
@@ -1077,8 +1077,8 @@ class BrandpulseCalc:
                 SELECT 
                     CASE 
                         WHEN a.category_id IS NULL AND a.brand_id IS NOT NULL 
-                        THEN COALESCE(CAST(cb.category_id AS VARCHAR), a.category_id)
-                        ELSE a.category_id
+                        THEN COALESCE(CAST(cb.category_id AS VARCHAR), CAST(a.category_id AS VARCHAR))
+                        ELSE CAST(a.category_id AS VARCHAR)
                     END AS category_id,
                     a.brand_id,
                     a.property_id,
@@ -1132,7 +1132,7 @@ class BrandpulseCalc:
         if property_sys_name:
             mask &= df["property_sys_name"].str.contains(property_sys_name, regex=True)
 
-        return df[mask]
+        return df[mask].drop_duplicates()
     
     
     def calc_crosstab_property_universe(
@@ -1316,7 +1316,7 @@ class BrandpulseCalc:
             USING (project_id)
         """
         return self._execute_query(query, log_sql)
-    
+
     def find_project_property(
             self,
             project_id: int,
